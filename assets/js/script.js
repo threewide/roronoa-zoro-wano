@@ -22,7 +22,7 @@ savedCitiesButton.addEventListener('click', function (event) {
 })
 
 function getCityLatLon(city) {
-    var cityToLatLonUrl = 'http://api.openweathermap.org/data/2.5/weather?q=' + 
+    var cityToLatLonUrl = 'https://api.openweathermap.org/data/2.5/weather?q=' + 
                             city + '&appid=' + APIKey;
 
     fetch(cityToLatLonUrl)
