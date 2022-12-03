@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+
+h2 {
+    margin-top: 0;
+}
+.search-city {
+    float: left;
+    width: 25%;
+}
+
+.weather-data {
+    float: left;
+    border: 1px solid black;
+    margin-left: 10px;
+    width: calc(75% - 10px);
+}
+
+.city-input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.btn {
+    width: 100%;
+}
